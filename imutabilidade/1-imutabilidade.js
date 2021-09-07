@@ -6,7 +6,7 @@ const user = {
 function getUserWithFullName(user){
     return{
         ...user,
-        fullname: '${user.name} ${user.lastname}'
+        fullname: user.name +" "+ user.lastname
     }
 }
 
